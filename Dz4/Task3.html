@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 3</title>
+    <link rel="stylesheet" href="Task3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Background">
+        <h1>Форма</h1>
+        <form>
+            <label for="name">Имя</label>
+            <input class="Text" type="text" placeholder="Введите имя" id="name">
+            <label for="email">Адрес электронной почты</label>
+            <input class="Text" type="email" placeholder="Введите почту" id="email">
+            <label class="Gender">Пол</label>
+            <div class="selector"><input class="select" type="radio" name="gender" id="man"><label class="text" for="man"> Мужской</label></div>
+            <div class="selector"><input class="select" type="radio" name="gender" id="woman"><label class="text" for="woman">Женский</label></div>
+            <label for="message">Сообщение</label>
+            <textarea placeholder="Введите сообщение" id="message"></textarea>
+            <input class="Button" type="submit" name="button" id="button" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>

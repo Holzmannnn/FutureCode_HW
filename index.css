@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh   ;
+}
+img {
+    width: 100vw;
+    height: 101vh;
+}
+body > ul {
+    font-family: "JetBrains Mono", sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    width: 85vw;
+    overflow-y: scroll;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    background-color: #F0F0F0;
+    border: 2px solid #2961D9;
+    padding: 20px;
+    border-radius: 40px;
+    display: grid;
+    gap: 20px;
+}
+
+body > ul::-webkit-scrollbar {
+    display: none;
+}
+
+body > ul ul {
+    list-style-type: none;
+    background-color: #FFFFFF;
+    border: 2px solid #2961D9;
+    padding: 20px;
+    border-radius: 20px;
+}
+p {
+    margin-top: 0;
+    font-weight: bold;
+}

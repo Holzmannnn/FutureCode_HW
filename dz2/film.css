@@ -1,0 +1,113 @@
+body {
+    background-color: #64759b;
+    padding: 0;
+    margin: 0;
+}
+.BackPage {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    background-color: #151a25;
+    width: calc(100vw - 160px);
+    height: calc(100vh - 110px);
+    margin: 25px 50px;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 15px 10px 25px 15px rgba(4, 14, 26, 0.5);
+}
+.BackPage::-webkit-scrollbar {
+    display: none;
+}
+.Head {
+    display: flex;
+    justify-content: space-between;
+}
+.Poster {
+    margin-right: 30px;
+    border-radius: 5px 25px 25px 25px;
+}
+.Text {
+    margin-top: 30px;
+    text-align: start;
+    width: 600px;
+}
+p {
+    color: #FFFFFF;
+    font-family: 'Google Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+h1{
+    color: #FFFFFF;
+    margin-top: 0 !important;
+    font-family: 'Google Sans', sans-serif;
+}
+.OriginalName {
+    font-size: 16px;
+    color: #787777;
+}
+.Normal {
+    font-size: 16px;
+}
+table {
+    margin: 10px 0;
+}
+tr {
+    margin: 10px 0 ;
+}
+td {
+    padding: 5px 5px;
+    font-family: 'Google Sans', sans-serif;
+    color: #FFFFFF;
+    &:nth-child(1) {
+        padding-left: 0;
+        color: #787777;
+    }
+}
+.Actors {
+    text-align: center;
+    padding: 30px;
+    height: max-content;
+}
+.Actor {
+    width: 108px;
+}
+.ActorPhoto {
+    width: 108px;
+    height: 144px;
+    border-radius: 10px;
+}
+.ActorName {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 15px;
+}
+.Role {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 15px;
+}
+span {
+    color: #FFFFFF;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.List {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 15px;
+}
+.AboutFilm {
+    padding: 30px;
+    text-align: center;
+}
+.Discription {
+    text-align: left!important;
+}
+.Video {
+    width: 840px;
+    border-radius: 25px 5px 25px 25px;
+    overflow: hidden;
+}
