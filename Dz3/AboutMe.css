@@ -25,7 +25,20 @@ p {
 }
 .Up {
     display: grid;
-    grid-auto-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+img {
+    padding: 10px 35px;
+    width: calc(100% - 15%);
+    height: calc(100% - 5%);
+    border-radius: 20px;
+}
+h1 {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: "Helvetica", sans-serif;
+    text-align: right;
 }
 .Footer {
     width: calc(100vw - 1000px);
